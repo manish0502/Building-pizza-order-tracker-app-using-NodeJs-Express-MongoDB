@@ -1,0 +1,30 @@
+[+]Create a folder named 'pizza-order' 
+
+[+] Create a NPM project and install all dependencies
+    Dependencies
+        - express
+        - ejs express-ejs-layouts
+
+    Dev dependencies
+        - nodemon
+
+
+[.] Create Express server : Create a server.js file.
+
+[.] Create a home page using Html & CSS.
+     - include tailwind css
+
+[.] Create Cart Page 
+     - order summary section 
+     - empty cart section section
+
+
+
+
+[.] Create Order-Controller and link to the server.js file
+[.] Create a Order view with table for customer and admin 
+[.] Create a Order with single page with order.
+[.] Create login page with route.
+[.] Create register page with route.
+
+
