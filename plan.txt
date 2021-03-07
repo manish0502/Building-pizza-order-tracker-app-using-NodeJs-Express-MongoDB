@@ -10,6 +10,9 @@
 
 
 [+] Create Express server : Create a server.js file.
+[.] Git setup & 1st commit.
+[.] Install laravel mix.
+ - setup js and scss
 
 [.] Create a home page using Html & CSS.
      - include tailwind css
@@ -17,7 +20,6 @@
 [.] Create Cart Page 
      - order summary section 
      - empty cart section section
-
 
 
 
