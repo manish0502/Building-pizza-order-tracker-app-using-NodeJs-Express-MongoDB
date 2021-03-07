@@ -9,7 +9,7 @@
         - nodemon
 
 
-[.] Create Express server : Create a server.js file.
+[+] Create Express server : Create a server.js file.
 
 [.] Create a home page using Html & CSS.
      - include tailwind css
