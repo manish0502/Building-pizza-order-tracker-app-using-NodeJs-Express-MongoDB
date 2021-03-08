@@ -9,15 +9,18 @@
         - nodemon
 
 
-[.] Create Express server : Create a server.js file.
+[+] Create Express server : Create a server.js file.
+[+] Git setup & 1st commit.
+[+] Install laravel mix.
+    - setup js and scss
 
-[.] Create a home page using Html & CSS.
-     - include tailwind css
+[+] install tailwind css
+
+[+] Create a home page using Html & CSS.
 
 [.] Create Cart Page 
      - order summary section 
      - empty cart section section
-
 
 
 
@@ -28,3 +31,9 @@
 [.] Create register page with route.
 
 
+
+
+
+to run this projects open two terminals 
+   1. npm run watch
+   2. npm run dev
