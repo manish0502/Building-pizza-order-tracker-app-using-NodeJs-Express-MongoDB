@@ -14,6 +14,11 @@ app.get('/' ,(req, res)=>{
 
 })
 
+
+// assets
+
+app.use(express.static('public'))
+
 // Setup Template Engine
 
 app.use(expressLayouts);
