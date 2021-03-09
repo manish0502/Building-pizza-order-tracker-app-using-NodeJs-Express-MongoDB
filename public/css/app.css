@@ -53,3 +53,7 @@ section.cart {
   background: #F8F8F8;
 }
 
+section.cart .amount {
+  color: #FE5F1E;
+}
+
