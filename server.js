@@ -7,12 +7,7 @@ const PORT = process.env.PORT || 3000;
  
 
 
-// @setting up routes
 
-app.get('/' ,(req, res)=>{
-    res.render('home')
-
-})
 
 
 // assets
@@ -24,6 +19,21 @@ app.use(express.static('public'))
 app.use(expressLayouts);
 app.set('views' ,path.join(__dirname,'/resources/views'))
 app.set('view engine' , 'ejs');
+
+// @setting up routes
+
+app.get('/' ,(req, res)=>{
+    res.render('home')
+
+})
+
+app.get('/cart' ,(req, res)=>{
+    res.render('customers/cart')
+
+})
+
+
+
 
 
 //Listening server
