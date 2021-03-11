@@ -18,10 +18,21 @@
 
 [+] Create a home page using Html & CSS.
 
-[.] Create Cart Page 
+[+] Create Cart Page 
      - order summary section 
      - empty cart section section
 
+[+] Move routes to route files
+[.] Create dedicated controllers
+[.] Add to cart functionality
+    - connect to mongodb
+    - use connect-mongo for session stores
+          
+    dependecies:
+          - mongoose , express-session , connect-mongo , dotenv
+
+   - axios to send ajax request
+   - install notification library  "npm i noty" 
 
 
 [.] Create Order-Controller and link to the server.js file

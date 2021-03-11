@@ -22,25 +22,8 @@ app.set('view engine' , 'ejs');
 
 // @setting up routes
 
-app.get('/' ,(req, res)=>{
-    res.render('home')
+require('./routes/web')(app);
 
-})
-
-app.get('/cart' ,(req, res)=>{
-    res.render('customers/cart')
-
-})
-
-app.get('/login' ,(req, res)=>{
-    res.render('auth/login')
-
-})
-
-app.get('/reg' ,(req, res)=>{
-    res.render('auth/register')
-
-})
 
 
 
