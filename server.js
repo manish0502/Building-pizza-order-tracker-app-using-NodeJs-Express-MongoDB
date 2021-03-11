@@ -32,6 +32,15 @@ app.get('/cart' ,(req, res)=>{
 
 })
 
+app.get('/login' ,(req, res)=>{
+    res.render('auth/login')
+
+})
+
+app.get('/reg' ,(req, res)=>{
+    res.render('auth/register')
+
+})
 
 
 
