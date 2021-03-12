@@ -6,7 +6,7 @@ function homeController() {
        async index(req, res){ 
 
             const pizzas= await Menu.find();
-            console.log(pizzas);
+            console.log('fetched data from backend');
             return  res.render('home',{pizzas: pizzas})
             
         }
