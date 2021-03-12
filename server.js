@@ -4,8 +4,10 @@ const ejs= require('ejs');
 const expressLayouts=require('express-ejs-layouts');
 const path =require('path');
 const PORT = process.env.PORT || 3000;
- 
+const connectDB = require('./app/config/database/db');
 
+/*********************** Connecting To MongoDB *****/
+connectDB();
 
 
 
