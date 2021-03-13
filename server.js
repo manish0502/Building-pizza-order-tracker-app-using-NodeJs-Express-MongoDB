@@ -53,6 +53,15 @@ app.use(flash());
 /*********************** Setting up Assets ********************************/
 
 app.use(express.static('public'))
+app.use(express.json());
+
+/*********************** Setup Global Middleware ********************************/
+
+app.use((req, res, next)=>{
+    res.locals.session = req.session;
+    next();
+})
+
 
 /*********************** Setup Template Engine ********************************/
 
