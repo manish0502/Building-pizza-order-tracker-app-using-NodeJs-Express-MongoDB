@@ -38,7 +38,9 @@ app.use(session({
     resave: false,
     store: mongoStore,
     saveUninitialized:false,
-    cookie:{ maxAge: 1000 * 60 * 60*24 } //24 hours
+    cookie:{ maxAge: 1000 * 60 * 60 * 24 }
+
+    // cookie:{ maxAge: 1000 * 25 }
 
 
 }))
@@ -51,6 +53,15 @@ app.use(flash());
 /*********************** Setting up Assets ********************************/
 
 app.use(express.static('public'))
+app.use(express.json());
+
+/*********************** Setup Global Middleware ********************************/
+
+app.use((req, res, next)=>{
+    res.locals.session = req.session;
+    next();
+})
+
 
 /*********************** Setup Template Engine ********************************/
 
