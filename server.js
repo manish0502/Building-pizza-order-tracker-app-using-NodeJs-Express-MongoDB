@@ -40,8 +40,6 @@ app.use(session({
     saveUninitialized:false,
     cookie:{ maxAge: 1000 * 60 * 60 * 24 }
 
-    // cookie:{ maxAge: 1000 * 25 }
-
 
 }))
 
@@ -53,6 +51,7 @@ app.use(flash());
 /*********************** Setting up Assets ********************************/
 
 app.use(express.static('public'))
+app.use(express.urlencoded({ extended: true })); 
 app.use(express.json());
 
 /*********************** Setup Global Middleware ********************************/

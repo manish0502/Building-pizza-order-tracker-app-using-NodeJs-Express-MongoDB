@@ -36,12 +36,24 @@
    - axios to send ajax request
    - install notification library  "npm i noty" 
 
+[+] Create login page with route.
+[+] Create register page with route.
+
+[-] Build register CRUD.
+        dependecies:
+            - Express-flash , express-session , connect-mongo , dotenv
+            - statscode articles https://restapitutorial.com/httpstatuscodes.html
+
+[-] Build Login with passport.js.
+           
+        dependecies:
+            - passport ,passport-local, express-session 
+
 
 [.] Create Order-Controller and link to the server.js file
 [.] Create a Order view with table for customer and admin 
 [.] Create a Order with single page with order.
-[.] Create login page with route.
-[.] Create register page with route.
+
 
 
 

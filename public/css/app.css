@@ -358,6 +358,10 @@ section hero {
   background: #b23301;
 }
 
+.btn-primary:focus {
+  outline: none;
+}
+
 section.cart {
   background: #F8F8F8;
 }
