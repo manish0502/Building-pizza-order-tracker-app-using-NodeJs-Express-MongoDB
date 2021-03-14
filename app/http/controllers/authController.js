@@ -19,8 +19,11 @@ function authController() {
              /*** validate request ***/
 
              if(!name || !email || !password ) {
-
+                 
                 req.flash('error' ,'All fields are required')
+                req.flash('name', name),
+                req.flash('email', email) // if any error occurs but some fields are filled already then we can flash back those correct data
+
                 return res.redirect('/reg')
 
              }
