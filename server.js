@@ -9,6 +9,7 @@ const mongoose =require('mongoose');
 const session = require('express-session'); 
 const flash = require('express-flash');
 const MongoDbStore = require('connect-mongo')(session)
+var passport = require('passport');
 
 /*********************** Connecting To MongoDB ************************************/
 
@@ -20,7 +21,10 @@ connection.once('open', () => {
     console.log('Database connected...');
 }).catch(err => {
     console.log('Connection failed...')
+    
 });
+
+
 
 /*********************** Session Store********************************/
 
@@ -43,6 +47,14 @@ app.use(session({
 
 }))
 
+/*********************** Passport Configration ************************************/
+
+
+const passportInit = require('./app/config/passport')
+passportInit(passport)
+app.use(passport.initialize())
+app.use(passport.session())
+
 /*********************** Using Flash as middleware ********************************/
 
 app.use(flash());
@@ -58,6 +70,7 @@ app.use(express.json());
 
 app.use((req, res, next)=>{
     res.locals.session = req.session;
+    res.locals.user = req.user
     next();
 })
 
