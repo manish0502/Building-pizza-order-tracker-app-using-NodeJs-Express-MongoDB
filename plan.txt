@@ -39,12 +39,12 @@
 [+] Create login page with route.
 [+] Create register page with route.
 
-[-] Build register CRUD.
+[+] Build register CRUD.
         dependecies:
             - Express-flash , express-session , connect-mongo , dotenv
             - statscode articles https://restapitutorial.com/httpstatuscodes.html
 
-[-] Build Login with passport.js.
+[+] Build Login with passport.js.
            
         dependecies:
             - passport ,passport-local, express-session 
@@ -53,6 +53,21 @@
 [.] Create Order-Controller and link to the server.js file
 [.] Create a Order view with table for customer and admin 
 [.] Create a Order with single page with order.
+[.] Place Order functionality.
+[.] Show all my orders on customers order page.
+[.] Show orders on admin orders page.
+[.] Tracker for orders.
+    - dependecies moment
+
+[.] Socket Connection.
+    - dependencies socket.io.
+
+[.] Build project fo deployment.
+
+[.] Deploy project on live server.
+
+
+
 
 
 
