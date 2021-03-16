@@ -50,7 +50,8 @@ function authController() {
 
             */
         req.flash("error", "All fields are required");
-        req.flash("name", name), req.flash("email", email);
+        req.flash("name", name), 
+        req.flash("email", email);
         return res.redirect("/reg");
       }
 
@@ -80,7 +81,7 @@ function authController() {
         .save()
         .then(() => {
           //login
-          return res.redirect("/");
+          return res.redirect("/login");
         })
         .catch((err) => {
           req.flash("error", "Something went Wrong");
