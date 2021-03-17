@@ -6,38 +6,38 @@
 
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+This project was generated with Sass  Nodejs ,ExpressJS , MongoDB & LaravelMix.
 
+![](images/2.png)
 
 # Quick Start
-### Install Node.js and Angular-cli:
+
+### Install Node.js ,Expressjs LaravelMix,and MongoDB:
 ```sh
-$ Download Project
-$ cd shopping-cart
-$ npm i and it will run on following port
-$ http://localhost:4200/ 
-$ for running json server "json-server db.json" open http://localhost:3000/products
+$ git clone https://github.com/manish0502/Building-pizza-order-tracker-app-using-NodeJs-Express-and-Mongo-DB.git
+$ npm i and  npm run all
+$ http://localhost:3000/ 
 ```
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run server` for a dev server. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
 
 ## Tools
 ```sh
- * AngularJS - Base framework
- * Bootstrap4.5 - Build
- * NPM , Nodejs , json-server
+ * SASS , passport-local for authentication
+ * Nodejs , ExpressJs
+ * NPM , MongoDB , json-server
  * Animate.css - Animation library, use with ng-animate
- * Rxjs
+ * Moment 
 ```
 
 ## Overall Directory Structure
 
-At a high level, the structure looks roughly like this:
+At a high level, Working:
 
- ![](images/architect1.png)
- 
+ ![](images/3.png)
+ ![](images/4.png)
 
 ### What follows is a brief description of each entry, but most directories contain their own README.md file with additional documentation, so browse around to learn more.
 
