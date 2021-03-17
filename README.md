@@ -6,7 +6,7 @@
 
 
 
-This project was generated with Sass  Nodejs ,ExpressJS , MongoDB & LaravelMix.
+This project was generated with Sass , Nodejs ,ExpressJS  MongoDB & LaravelMix.
 
 ### Menus
 
