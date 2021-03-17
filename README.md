@@ -28,7 +28,7 @@ Run `npm run server` for a dev server. Navigate to `http://localhost:3000/`. The
 ## Tools
 ```sh
  * SASS , passport-local for authentication ,ejs
- * Nodejs , ExpressJs , Mongo-connect
+ * Nodejs , ExpressJs , Mongo-connect ,SCSS
  * NPM , MongoDB , json-server
  * Animate.css - Animation library, use with ng-animate
  * Moment ,bcrypt
@@ -39,9 +39,9 @@ Run `npm run server` for a dev server. Navigate to `http://localhost:3000/`. The
 
 ### What follows is a brief description of each entry, but most directories contain their own README.md file with additional documentation, so browse around to learn more.
 
- * `karma/ `- test configuration.
- * `src/ `- our application sources. Read more »
- * `vendor/` - third-party libraries. Bower will install packages here. Anything added to this directory will need to be manually added to build.config.js and *  *`karma/karma`-unit.js to be picked up by the build system.
+ * `NodeJs/ `- Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside  a web browser.
+ * `LaravelMix/ `- Laravel Mix provides a clean, fluent API for defining basic webpack build steps for your applications. Mix supports several common CSS and JavaScript pre-processors»
+ * `ExpressJs/` - Express.js, or simply Express, is a back end web application framework for Node.js *  *`karma/karma`-unit.js to be picked up by the build system.
  * `.bowerrc` - the Bower configuration file. This tells Bower to install components into the vendor/ directory.
  *` bower.json` - this is our project configuration for Bower and it contains the list of Bower dependencies we need.
  * `build.config.js` - our customizable build settings; see "The Build System" below.
@@ -70,18 +70,3 @@ Run `npm run server` for a dev server. Navigate to `http://localhost:3000/`. The
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
