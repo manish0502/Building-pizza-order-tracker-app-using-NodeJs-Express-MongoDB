@@ -41,10 +41,11 @@ Run `npm run server` for a dev server. Navigate to `http://localhost:3000/`. The
 
  * `NodeJs/ `- Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside  a web browser.
  * `LaravelMix/ `- Laravel Mix provides a clean, fluent API for defining basic webpack build steps for your applications. Mix supports several common CSS and JavaScript pre-processors»
- * `ExpressJs/` - Express.js, or simply Express, is a back end web application framework for Node.js *  *`karma/karma`-unit.js to be picked up by the build system.
- * `.bowerrc` - the Bower configuration file. This tells Bower to install components into the vendor/ directory.
- *` bower.json` - this is our project configuration for Bower and it contains the list of Bower dependencies we need.
- * `build.config.js` - our customizable build settings; see "The Build System" below.
+ * `ExpressJs/` - Express.js, or simply Express, is a back end web application framework for Node.js * 
+ *  `PassportJS`- Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more..
+ * `Noty-npm` - Noty is a dependency-free notification library that makes it easy to create alert - success - error - warning - information - confirmation messages .
+ *` Moment` - A JavaScript date library for parsing, validating, manipulating, and formatting dates. Project Status. Moment.js is a legacy project.
+ * `bcrypt` - The bcrypt library on NPM makes it really easy to hash and compare passwords in Node.
  * `module.prefix and module.suffix` - our compiled application script is wrapped in these, which by default are used to place the application inside a self-    
  * `package.json` - metadata about the app, used by NPM and our build script. Our NPM dependencies are listed here.
 
@@ -66,7 +67,7 @@ Run `npm run server` for a dev server. Navigate to `http://localhost:3000/`. The
   
   ![](images/6.png)
   
-## Code scaffolding
+## For Running 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm run all` to Start it . You can also use `npm run start , npm run --watch`.
 
