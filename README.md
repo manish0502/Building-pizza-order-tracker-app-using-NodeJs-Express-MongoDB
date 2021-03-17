@@ -8,6 +8,8 @@
 
 This project was generated with Sass  Nodejs ,ExpressJS , MongoDB & LaravelMix.
 
+### Menus
+
 ![](images/2.png)
 
 # Quick Start
@@ -25,19 +27,15 @@ Run `npm run server` for a dev server. Navigate to `http://localhost:3000/`. The
 
 ## Tools
 ```sh
- * SASS , passport-local for authentication
- * Nodejs , ExpressJs
+ * SASS , passport-local for authentication ,ejs
+ * Nodejs , ExpressJs , Mongo-connect
  * NPM , MongoDB , json-server
  * Animate.css - Animation library, use with ng-animate
- * Moment 
+ * Moment ,bcrypt
 ```
 
 ## Overall Directory Structure
 
-At a high level, Working:
-
- ![](images/3.png)
- ![](images/4.png)
 
 ### What follows is a brief description of each entry, but most directories contain their own README.md file with additional documentation, so browse around to learn more.
 
@@ -52,21 +50,21 @@ At a high level, Working:
 
 ## Overall Screens Looks as below.
 
- * Main screen
- 
-   ![](images/1.png)
-
- * Login screen
+ * Order Summary screen
  
    ![](images/3.png)
+
+ * All Orders screen
+ 
+   ![](images/4.png)
    
- * Registration
+ * Login screen
   
-  ![](images/2.png)
+  ![](images/5.png)
   
-  *Validated-registartion-view
+  *Registration
   
-  ![](images/reg-val.png)
+  ![](images/6.png)
   
 ## Code scaffolding
 
