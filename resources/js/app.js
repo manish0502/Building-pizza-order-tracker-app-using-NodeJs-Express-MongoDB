@@ -1,5 +1,7 @@
 import axios from "axios";
 import  Noty from "noty";
+//import { initAdmin } from './admin'
+//const initAdmin =require('./admin')
 
 let addToCart = document.querySelectorAll(".add-to-cart");
 let cartCounter =document.querySelector('#cartCounter');
@@ -31,6 +33,8 @@ function updateCart(pizza){
 
   });
 }
+//initAdmin();
+
 
 addToCart.forEach((btn) => {
   btn.addEventListener("click", (e) => {
@@ -39,3 +43,12 @@ addToCart.forEach((btn) => {
  
   });
 });
+
+// Remove alert message after X seconds
+const alertMsg = document.querySelector('#success-alert')
+if(alertMsg) {
+    setTimeout(() => {
+        alertMsg.remove()
+    }, 2000)
+}
+

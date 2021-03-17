@@ -5283,6 +5283,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var noty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! noty */ "./node_modules/noty/lib/noty.js");
 /* harmony import */ var noty__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(noty__WEBPACK_IMPORTED_MODULE_1__);
 
+ //import { initAdmin } from './admin'
+//const initAdmin =require('./admin')
 
 var addToCart = document.querySelectorAll(".add-to-cart");
 var cartCounter = document.querySelector('#cartCounter');
@@ -5306,14 +5308,23 @@ function updateCart(pizza) {
       progressBar: false
     }).show();
   });
-}
+} //initAdmin();
+
 
 addToCart.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     var pizza = JSON.parse(btn.dataset.pizza);
     updateCart(pizza);
   });
-});
+}); // Remove alert message after X seconds
+
+var alertMsg = document.querySelector('#success-alert');
+
+if (alertMsg) {
+  setTimeout(function () {
+    alertMsg.remove();
+  }, 2000);
+}
 
 /***/ }),
 
